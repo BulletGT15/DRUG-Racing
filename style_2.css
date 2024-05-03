@@ -201,6 +201,7 @@ header{
     font-weight: bolder;
     font-size: 3vh;
     color: white;
+    cursor: pointer;
 }
 .buy-button1:hover{
     background-color: #17A400;
@@ -309,6 +310,72 @@ a:hover{
 
 footer{
     width: 100%;
-    height: 15vh;
+    height: 18vh;
     background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.ft1{
+    width: 15vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1-ft{
+    width: 12vh;
+    height: 12vh;
+}
+.ft2{
+    width: 34vh;
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text1-ft{
+    font-size: 2.8vh;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: bold;
+    position: absolute;
+    color: white;
+}
+.img2-ft{
+    position: relative;
+    width: 10vh;
+    height: 10vh;
+    top: 4vh;
+}
+.img3-ft{
+    position: relative;
+    width: 10vh;
+    height: 10vh;
+    top: 4vh;
+}
+.ft3{
+    width: 22vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.text2-ft{
+    font-size: 2.8vh;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin-top: 2vh;
+}
+.ft4{
+    width: 50vh;
+    height: 100%;
+    display: flex;
+    text-align: center;
+}
+.text3-ft{
+    font-size: 2vh;
+    font-family: "IBM Plex Mono", monospace;
+    color: white;
 }
